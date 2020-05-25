@@ -1,0 +1,17 @@
+Move comebacker folder to the main folder of your landing.
+Then add links to js and css files in your index.html(php) file like this:
+
+	<link type="text/css" rel="stylesheet" href="comebacker/css.css" />
+	<script type="text/javascript" src="comebacker/script.js"></script>
+
+If you don't have JQuery in your landing code - add it using:
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+If you want to change time - open script.js and you'll find the lines, that you need to change.
+
+To add main script block open index.html and copy all code between:
+
+	<!-- <comebacker> -->
+	<!-- </comebacker> -->
+
+and place it before closing "body" tag
